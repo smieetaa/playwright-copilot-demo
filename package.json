@@ -1,0 +1,14 @@
+{
+  "name": "playwright-copilot-demo",
+  "version": "1.0.0",
+  "description": "Playwright test suite built with GitHub Copilot — demo repo for YouTube tutorial",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
